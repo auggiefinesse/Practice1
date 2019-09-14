@@ -1,0 +1,115 @@
+footer {
+    background-color: red;
+    height: 10vh;
+}
+
+nav {
+    background-color: red;
+    height: 10vh;
+    width: 100%;
+    display: table;
+}
+
+.name {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 120px;
+}
+
+.red-text {
+    color: red;
+}
+
+.centered {
+    text-align: center;
+}
+
+main {
+    height: 80vh;
+    position: relative;
+}
+
+.nav-link-container {
+    display: table;
+    float: right;
+    height: 10vh;
+    margin-right: 25px;
+    background-color: red;
+}
+
+.nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:not(:Last-Child) {
+padding-right: 20px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    transform: translate(-50%, -50%)
+}
+
+.card-header {
+    height: 25%;
+    display: table;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.card-header-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.card-text {
+    padding: 15px;
+}
+
+body {
+    background-image: url('/img/space2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.left {
+    height: 100%;
+    background-color: black;
+    width: 50%;
+    float: left;
+}
+
+.right {
+    height: 100%;
+    background-color: beige;
+    width: 50%;
+    float: right;
+}
+
+* {
+    margin: 0;
+}
+
+div {
+    background-color: aqua;
+    width: 50%;
+}
+
+footer {
+    height: 10vh;
+    background-color: bisque;
+}
